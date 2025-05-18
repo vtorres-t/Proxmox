@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/vtorres-t/Proxmox/refs/heads/main/main/misc/build.func)
 
 APP="Jellyfin"
 var_tags="${var_tags:-media}"
